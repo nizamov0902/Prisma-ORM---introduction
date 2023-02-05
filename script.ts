@@ -8,8 +8,8 @@ async function main() {
     const user = await prisma.user.create({
         data: {
             age: 30,
-            name: "Sam",
-            email: "sam@test.com",
+            name: "Bobby",
+            email: "bobby@test.com",
         }
       }
     )
